@@ -1,12 +1,22 @@
-# React + Vite
+# 🎬 Netflix-GPT 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A sleek and responsive movie recommendation app that uses natural language input to suggest movie titles based on your mood, preferences, or genre descriptions. Powered by GPT and TMDB API, this app fetches detailed movie cards for a beautiful Netflix-style browsing experience.
 
-Currently, two official plugins are available:
+##  Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+-  Prompt-based movie recommendations using OpenRouter GPT API
+-  Movie details fetched from [TMDB API](https://www.themoviedb.org/documentation/api)
+-  Movie cards with poster images
+-  Tailwind CSS for elegant UI and responsiveness
+-  Fixed background image for aesthetic consistency
+-  Debounced API requests with `AbortController`
 
-## Expanding the ESLint configuration
+##  Technologies Used
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React
+- Tailwind CSS
+- OpenRouter GPT API (`deepseek/deepseek-chat:free`)
+- TMDB API
+- Firebase Authentication (for auth layer integration)
+- Redux Toolkit (for managing user state)
+
